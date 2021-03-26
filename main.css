@@ -1,0 +1,75 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: grey;
+    background-image: linear-gradient(to bottom right, #373d47, #00b3a4);
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.header h3 {
+    margin-top: 0;
+}
+
+hr {
+    width: 80%;
+}
+
+.section__title {
+    margin-bottom: 10px;
+}
+
+.section__content {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.subheading {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.subheading i {
+    font-size: 30px;
+}
+
+.subheading i:hover {
+    color:#00f1dd;
+}
+
+.section__subheading {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__subheading h3 {
+    margin: 0;
+}
+
+.project__link {
+    margin: 0;
+    background-color: #00b3a4;
+    padding: 0 5px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.project__link a {
+    color: rgb(255, 255, 255);
+}
+
+.project__link a:hover {
+    color:#ffc400;
+}
