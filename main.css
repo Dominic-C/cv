@@ -71,6 +71,7 @@ hr {
     margin-top: 12px;
 }
 
+.github__link,
 .project__link {
     margin: 0;
     margin-top: 5px;
@@ -80,10 +81,17 @@ hr {
     border-radius: 4px;
 }
 
-.project__link a {
+.project__link {
+    background-color: #d60084;
+}
+
+.github__link a,
+.project__link {
     color: rgb(255, 255, 255);
 }
 
+.github__link a:hover,
+.github__link a:active,
 .project__link a:hover,
 .project__link a:active {
     color:#00f1dd;
@@ -124,6 +132,7 @@ hr {
         margin-bottom: 35px;
     }
 
+    .github__link,
     .project__link {
         display: block;
         width: fit-content;
