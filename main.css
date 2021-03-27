@@ -1,7 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: grey;
-    background-image: linear-gradient(to bottom right, #373d47, #00b3a4);
+    background-image: linear-gradient(to bottom right, #373d47, #009e91);
     color: white;
 }
 a {
@@ -67,11 +67,14 @@ hr {
 
 .section__item__list {
     padding-left: 25px;
+    margin-bottom: 25px;
+    margin-top: 12px;
 }
 
 .project__link {
     margin: 0;
-    background-color: #00b3a4;
+    /* background-color: #00b3a4; */
+    background-color: #9f39fe;
     padding: 0 5px;
     display: inline-block;
     border-radius: 4px;
@@ -83,7 +86,7 @@ hr {
 
 .project__link a:hover,
 .project__link a:active {
-    color:#9f39fe;
+    color:#00f1dd;
 }
 
 /* tablet */
@@ -118,6 +121,7 @@ hr {
 
     .section__item__list {
         padding-left: 15px;
+        margin-bottom: 35px;
     }
 
     .project__link {
