@@ -90,6 +90,10 @@ hr {
 
 /* phone */
 @media (max-width: 700px) {
+
+    .section__content {
+        width: 90%;
+    }
     .section__subheading {
         display: block;
     }
@@ -103,10 +107,30 @@ hr {
         text-align: center;
     }
 
+    .section__item__list {
+        padding-left: 15px;
+    }
+
     .project__link {
         display: block;
         width: fit-content;
         margin: 0 auto;
         text-align: center;
+    }
+
+    .header h1 {
+        font-size: 24px;
+    }
+
+    .header h3 {
+        font-size: 18px;
+    }
+
+    .section__content .section__title {
+        font-size: 22px;
+    }
+
+    .section__subheading h3 {
+        font-size: 18px;
     }
 }
