@@ -27,10 +27,13 @@ hr {
     border: none;
     height: 1px;
     background-color: white;
+    /* display: none; */
 }
 
 .section__title {
     margin-bottom: 10px;
+    /* background-color: rgba(255, 255, 255, 0.212);
+    padding: 5px; */
 }
 
 .section__content {
@@ -59,6 +62,11 @@ hr {
 
 .section__subheading h3 {
     margin: 0;
+    font-weight: 500;
+}
+
+.section__item__list {
+    padding-left: 25px;
 }
 
 .project__link {
@@ -73,8 +81,9 @@ hr {
     color: rgb(255, 255, 255);
 }
 
-.project__link a:hover {
-    color:#ffc400;
+.project__link a:hover,
+.project__link a:active {
+    color:#9f39fe;
 }
 
 /* tablet */
