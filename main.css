@@ -24,6 +24,9 @@ a {
 
 hr {
     width: 80%;
+    border: none;
+    height: 1px;
+    background-color: white;
 }
 
 .section__title {
@@ -72,4 +75,38 @@ hr {
 
 .project__link a:hover {
     color:#ffc400;
+}
+
+/* tablet */
+@media (max-width: 900px) {
+    .section__subheading {
+        display: block;
+    }
+
+    .section__subheading__date{
+        font-weight: 500;
+    }
+}
+
+/* phone */
+@media (max-width: 700px) {
+    .section__subheading {
+        display: block;
+    }
+
+    .section__subheading__date{
+        font-weight: 500;
+    }
+
+    .section__subheading,
+    .section__title {
+        text-align: center;
+    }
+
+    .project__link {
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        text-align: center;
+    }
 }
